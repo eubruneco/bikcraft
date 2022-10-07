@@ -1,85 +1,14 @@
-body {
-  margin: 0px;
-  font-family: arial, Arial, Helvetica, sans-serif;
-}
+@import "./global/global.css";
+@import "./utilidades.css/tipografia.css";
+@import "./utilidades.css/cores.css";
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
+@import "./global/header.css";
 
-a {
-  text-decoration: none;
-}
-.header-bg {
-  background-color: #000;
-}
+/* Utilidades */
+@import "./utilidades.css/componentes.css";
 
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* Home */
+@import "./home/introducao.css";
 
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.header-menu a {
-  padding: 16px 0px;
-  display: inline-block;
-  color: #fff;
-  font-size: 18px;
-  position: relative;
-}
-.header-menu a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-  background-color: #fff;
-  margin-top: 4px;
-  position: absolute;
-}
-
-.header-menu a:hover:after {
-  width: 100%;
-  transition: 0.3s;
-}
-
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 20px;
-  }
-  .header-menu a {
-    background-color: #111;
-    padding: 12px 16px;
-    border-radius: 4px;
-  }
-  .header-menu a:hover {
-    background-color: #2e2e2e;
-  }
-  .header a:after {
-    display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .header-menu {
-    gap: 12px;
-  }
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";

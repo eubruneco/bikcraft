@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  font-family: arial, Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
+  color: var(--cor-11);
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
