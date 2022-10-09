@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: arial, Arial, Helvetica, sans-serif;
-  padding-bottom: 600px;
   color: var(--cor-11);
 }
 img {
@@ -12,6 +11,7 @@ img {
 img[src$=".jpg"] {
   border-radius: 4px;
 }
+
 h1,
 h2,
 h3,
