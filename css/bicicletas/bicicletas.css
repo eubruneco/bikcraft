@@ -1,7 +1,7 @@
 .bicicletas-bg {
   background-image: linear-gradient(
     to right,
-    var(--cor-0) 25%,
+    var(--cor-0) 33%,
     var(--cor-11) 0%
   );
 }
