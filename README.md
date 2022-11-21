@@ -6,13 +6,14 @@
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>JavaScript</li>
 
 </ul>
 
 <h3>🧬 Características:</h3>
 <ul>
 <li>Responsivo</li>
-<li>Utilitário (cores, componentes e tipografia)</li>
+<li>Utilitário (paleta, componentes, plugins e tipografia)</li>
 
 </ul>
 
